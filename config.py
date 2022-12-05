@@ -1,1 +1,1 @@
-TOKEN_API = '5841389150:AAG5YSyGvIAcbdi5j9JNKPs9cvohQ9Coiu4' #Insert your token here
+TOKEN_API = '' #Insert your token here
