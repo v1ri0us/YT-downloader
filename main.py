@@ -24,6 +24,8 @@ async def text_message(message: types.Message):
     if message.text.startswith == 'https://youtu.be/' or 'https://www.youtube.com/':
         await bot.send_message(chat_id, f'Скачиваю видео {yt.title} с канала {yt.author}')
         await downloader_video(url, message, bot)
+    else:
+        await bot.send_message(chat_id, 'Введи ссылку на видео, которое хочешь скачать!')
 
 
 async def downloader_video(url, message, bot):
